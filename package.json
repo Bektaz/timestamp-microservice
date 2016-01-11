@@ -1,0 +1,8 @@
+{
+  "name": "timestamp-microservice",
+  "description": "Timestamp-microservice basejump",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
