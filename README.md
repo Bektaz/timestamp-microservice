@@ -1,2 +1,2 @@
 # timestamp-microservice
-Get the time from the string passed
+API Basejump: Timestamp microservice
