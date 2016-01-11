@@ -26,9 +26,9 @@ var server = http.createServer(function(req, res){
         res.end('Hello this is my first app in Heroku!!!');
     }
     */
-    res.writeHead(200, {'content-type': 'text/html'});
+    res.writeHead(200, {'content-type': 'text/plain'});
     var html = fs.readFileSync(__dirname+'/index.htm');
-    res.end(html);
+    res.end('Hello!');
 });
 server.listen(port, function(){
 	console.log('Our app is running on http://localhost:'+port);
